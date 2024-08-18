@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuCinema.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/MenuPrincipal.unity
+    guid: 816e6b8b8e4aa414db8e75588b603185
+  - enabled: 1
+    path: Assets/Scenes/MenuParametre.unity
+    guid: 5ce4e23f7b26b4b458edabcf3d1d0882
+  - enabled: 1
+    path: Assets/Scenes/MenuJeu.unity
+    guid: 834591db978bf5742b4a0ee79f64a0ab
+  - enabled: 1
+    path: Assets/Scenes/MenuResultat.unity
+    guid: ba6a23e1dae97d1439c5e115a0ccb78f
   m_configObjects: {}

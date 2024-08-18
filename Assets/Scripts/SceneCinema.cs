@@ -18,7 +18,7 @@ public class SceneCinema : MonoBehaviour
     private void Start()
     {
         positionDepart = new Vector3(1260, -310, 0);
-        positionMilieu = new Vector3(0, -310, 0);
+        positionMilieu = new Vector3(100, -310, 0);
         positionFin = new Vector3(-1260, -310, 0);
 
         // Met Chat au debut d'action
