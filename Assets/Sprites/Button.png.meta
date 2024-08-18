@@ -1,0 +1,480 @@
+fileFormatVersion: 2
+guid: 7de5d45ee4c48b94fa7252cab3015868
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Button_3
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 5930
+        width: 408
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a51a637b0beb347a81be0f153ad447
+      internalID: 1841999821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_6
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 5659
+        width: 224
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334777850342ddf4bb86b4b8335c13d8
+      internalID: 1116547571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Reprendre
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 5356
+        width: 224
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09be001d693428488eebc29032c291c
+      internalID: -1433098853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Menu
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 5356
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92577d35f460d1469fd9abcfafa8074
+      internalID: 2103375115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Pause
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 3795
+        width: 224
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13ab963ec6cbb445969b2ac45fbf4bc
+      internalID: 464550504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Parametre
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 2752
+        width: 225
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c7404f98d6ec941a949fa67177be2b
+      internalID: -1671745348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Pla
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2490
+        width: 224
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d982dc2ce3c1ae48bfe529cff7c86a4
+      internalID: 966038643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Valide
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 2231
+        width: 225
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254be4ed309d44a4cbc99d8df2194349
+      internalID: -416654918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_100
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1448
+        width: 224
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c2641d446905645a83133dceb339de
+      internalID: 1094930936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Slider
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1448
+        width: 225
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f287ea4444832748bcb0e11877a9bcb
+      internalID: -373771013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Redemarre
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1712
+        width: 225
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edfa69eb3528fc458ddd864186b6a36
+      internalID: 2119073114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Button_100: 1094930936
+      Button_101: 1170296844
+      Button_102: -711431092
+      Button_104: 1202100727
+      Button_105: -756148394
+      Button_106: 694920362
+      Button_107: -853828539
+      Button_108: -1362628280
+      Button_109: 757611317
+      Button_11: -1633941861
+      Button_110: 923036670
+      Button_111: 1476933142
+      Button_112: 768171970
+      Button_113: 1112347139
+      Button_114: -806975233
+      Button_115: -744903910
+      Button_116: 594872846
+      Button_117: 1753631213
+      Button_118: 325752157
+      Button_119: 44507425
+      Button_12: -1789040248
+      Button_120: -1729345708
+      Button_121: 1061816411
+      Button_122: 1878994377
+      Button_123: -1714571900
+      Button_124: -296311639
+      Button_125: -557981502
+      Button_126: 1721852550
+      Button_127: -1404584396
+      Button_128: 616132332
+      Button_129: -1136584273
+      Button_130: -897142436
+      Button_131: 2050356465
+      Button_132: 1120815814
+      Button_133: 396323813
+      Button_134: -1222017532
+      Button_135: 379287202
+      Button_14: 2137816261
+      Button_15: 1642684739
+      Button_16: 1281160042
+      Button_17: 1837380102
+      Button_18: -341640725
+      Button_19: -2075406366
+      Button_2: -1581870653
+      Button_20: 669555440
+      Button_21: 2065151823
+      Button_22: -1270209902
+      Button_23: -1401106150
+      Button_24: 570621486
+      Button_25: 1564526271
+      Button_26: -696354364
+      Button_27: -341295435
+      Button_28: -705345194
+      Button_29: -1140318822
+      Button_3: 1841999821
+      Button_30: 1737460490
+      Button_31: -1704979143
+      Button_32: -2011537395
+      Button_33: -346261446
+      Button_34: 617236940
+      Button_35: 476796262
+      Button_36: -371589458
+      Button_37: 1169064714
+      Button_38: -1400743569
+      Button_39: -1907954536
+      Button_4: 947746293
+      Button_40: 1984450087
+      Button_41: -945804707
+      Button_42: -1062034438
+      Button_43: 1813523545
+      Button_44: 1038301604
+      Button_45: -26408865
+      Button_47: -1511264867
+      Button_48: 580798140
+      Button_49: -317355266
+      Button_5: -900129344
+      Button_50: 1244337899
+      Button_51: -598481207
+      Button_52: 452994253
+      Button_53: 474555931
+      Button_54: -1010239587
+      Button_55: -1178003002
+      Button_56: 1142251065
+      Button_57: -994613911
+      Button_58: -1152573042
+      Button_59: 28241147
+      Button_6: 1116547571
+      Button_60: -2118789797
+      Button_61: 985941910
+      Button_62: -158395422
+      Button_63: -2126659963
+      Button_64: 2129055613
+      Button_65: -1869818515
+      Button_66: -787434393
+      Button_67: -1433887801
+      Button_68: -957989970
+      Button_69: -1805154194
+      Button_7: -398017075
+      Button_70: -927952588
+      Button_71: -751096498
+      Button_72: -1470086541
+      Button_74: -1300436888
+      Button_75: 1849207674
+      Button_77: 1707101887
+      Button_78: -1169311418
+      Button_79: -1910366418
+      Button_8: 1476776899
+      Button_80: -147225527
+      Button_81: -1891296722
+      Button_82: 1957760603
+      Button_83: 1947125037
+      Button_84: -563999149
+      Button_86: 1279550740
+      Button_87: -1782653308
+      Button_88: -820778861
+      Button_89: -1449676321
+      Button_9: -119227021
+      Button_90: 1457949741
+      Button_91: -997060229
+      Button_92: -1140946410
+      Button_93: -430132647
+      Button_94: -640014710
+      Button_95: -1625438119
+      Button_96: 191244064
+      Button_97: 1250257934
+      Button_98: -247698492
+      Button_99: 1130342556
+      Button_Menu: 2103375115
+      Button_Parametre: -1671745348
+      Button_Pause: 464550504
+      Button_Pla: 966038643
+      Button_Redemarre: 2119073114
+      Button_Reprendre: -1433098853
+      Button_Slider: -373771013
+      Button_Valide: -416654918
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
