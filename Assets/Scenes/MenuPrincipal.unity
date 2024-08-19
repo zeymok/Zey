@@ -956,6 +956,7 @@ GameObject:
   - component: {fileID: 730556942}
   - component: {fileID: 730556941}
   - component: {fileID: 730556943}
+  - component: {fileID: 730556944}
   m_Layer: 5
   m_Name: Oiseau
   m_TagString: Untagged
@@ -1035,6 +1036,27 @@ MonoBehaviour:
   pointGauche: {x: -810, y: 490}
   pointDroit: {x: 810, y: 490}
   vitesse: 200
+--- !u!95 &730556944
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730556939}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c3afe008943cd0749a9b7121274c77ea, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &904169314
 GameObject:
   m_ObjectHideFlags: 0
