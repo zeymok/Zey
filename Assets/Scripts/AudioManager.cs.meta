@@ -3,7 +3,13 @@ guid: c39a8fdd7894375469cbab4b2a57d952
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - audioMixer: {fileID: 24100000, guid: 2d72db247165e8d49bfc4972eafbf1e3, type: 2}
+  - musiqueSource: {instanceID: 0}
+  - effetSource: {instanceID: 0}
+  - musiqueClassique: {fileID: 8300000, guid: 0cda4d94e05a50d48aff55f00bc7dd9b, type: 3}
+  - victoire: {fileID: 8300000, guid: 4455bca9b9b67fe4fb4f517f7d71494a, type: 3}
+  - defaite: {fileID: 8300000, guid: ecb811e3f1b298347a0b2180cca4a256, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

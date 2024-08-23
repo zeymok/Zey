@@ -35,15 +35,15 @@ public class AudioManager : MonoBehaviour
 
     public void JouerVictoire()
     {
-        musiqueSource.clip = victoire;
-        musiqueSource.Play();
+        effetSource.clip = victoire;
+        effetSource.Play();
         Debug.Log("La musique de Victoire est utilise");
     }
 
     public void JouerDefaite()
     {
-        musiqueSource.clip = defaite;
-        musiqueSource.Play();
+        effetSource.clip = defaite;
+        effetSource.Play();
         Debug.Log("La musique de Defaite est utilise");
     }
 

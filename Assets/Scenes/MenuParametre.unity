@@ -452,8 +452,8 @@ Transform:
   m_GameObject: {fileID: 153826925}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 647, y: 252, z: 0}
+  m_LocalScale: {x: 0.45, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1501053973}
@@ -467,8 +467,8 @@ AudioSource:
   m_GameObject: {fileID: 153826925}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 7815056634041670468, guid: 2d72db247165e8d49bfc4972eafbf1e3, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 0cda4d94e05a50d48aff55f00bc7dd9b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -479,7 +479,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 1726.1959
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -1083,8 +1083,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 479899040}
   m_HandleRect: {fileID: 218372049}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 0
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -2999,7 +2999,7 @@ Transform:
   m_GameObject: {fileID: 1496386151}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 553, y: 321, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3014,7 +3014,7 @@ AudioSource:
   m_GameObject: {fileID: 1496386151}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 5126191374955873817, guid: 2d72db247165e8d49bfc4972eafbf1e3, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -3025,8 +3025,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 79.9397
+  MaxDistance: 1857.7621
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -3843,8 +3843,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 1345746697}
   m_HandleRect: {fileID: 1716619571}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 0
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:

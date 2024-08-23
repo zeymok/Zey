@@ -11,7 +11,7 @@ public class MenuResultat : MonoBehaviour
     public Button parametreButton;
     public Button retourButton;
     public Button quitterButton;
-    public AudioSource audioSource; 
+    //public AudioSource audioSource; 
     public AudioClip victoireClip;   
     public AudioClip defaiteClip;    
     public float typingSpeed = 0.1f;  // Vitesse d'affichage des caractères
@@ -28,13 +28,15 @@ public class MenuResultat : MonoBehaviour
 
         if (victoire)
         {
-            audioSource.clip = victoireClip;
+            //audioSource.clip = victoireClip;
+            AudioManager.Instance.JouerVictoire();
         }
         else
         {
-            audioSource.clip = defaiteClip;
+            //audioSource.clip = defaiteClip;
+            AudioManager.Instance.JouerDefaite();
         }
-        audioSource.Play();
+        //audioSource.Play();
 
         rejouerButton.onClick.AddListener(Rejouer);
         parametreButton.onClick.AddListener(Parametre);
