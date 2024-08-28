@@ -18,6 +18,7 @@ public class MenuResultat : MonoBehaviour
 
     void Start()
     {
+        // un constructeur
         string surnom = PlayerPrefs.GetString("Surnom");
         bool victoire = PlayerPrefs.GetInt("Victoire") == 1;
         string motADeviner = PlayerPrefs.GetString("MotADeviner");
@@ -29,12 +30,12 @@ public class MenuResultat : MonoBehaviour
         if (victoire)
         {
             //audioSource.clip = victoireClip;
-            AudioManager.Instance.JouerVictoire();
+            AudioManager.Instance.JouerVictoire(); // une instance de classe
         }
         else
         {
             //audioSource.clip = defaiteClip;
-            AudioManager.Instance.JouerDefaite();
+            AudioManager.Instance.JouerDefaite(); // une instance de classe
         }
         //audioSource.Play();
 
@@ -56,6 +57,7 @@ public class MenuResultat : MonoBehaviour
 
     public void Rejouer()
     {
+        // une instance de classe
         SceneManager.LoadScene("MenuJeu");
     }
 

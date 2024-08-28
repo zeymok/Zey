@@ -13,6 +13,7 @@ public class MenuPrincipal : MonoBehaviour
 
     void Start()
     {
+        // un constructeur
         jouerButton.onClick.AddListener(Jouer);
         parametreButton.onClick.AddListener(Parametre);
         quitterButton.onClick.AddListener(Quitter);
@@ -24,12 +25,14 @@ public class MenuPrincipal : MonoBehaviour
         if (!string.IsNullOrEmpty(surnom))
         {
             PlayerPrefs.SetString("Surnom", surnom);
+            // une instance de classe
             SceneManager.LoadScene("MenuJeu");
         }
     }
 
     void Parametre()
     {
+        // une instance de classe
         SceneManager.LoadScene("MenuParametre");
     }
 

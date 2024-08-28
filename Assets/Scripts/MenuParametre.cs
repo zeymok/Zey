@@ -22,6 +22,7 @@ public class MenuParametre : MonoBehaviour
         
         customResolutions = new List<Resolution>
         {
+            // un constructeur
             new Resolution { width = 1920, height = 1080 }, // HD
             new Resolution { width = 2560, height = 1440 }, // QHD
             new Resolution { width = 3840, height = 2160 }  // 4K
@@ -64,6 +65,7 @@ public class MenuParametre : MonoBehaviour
 
     void ChangeResolution(int index)
     {
+        // une instance de classe
         Resolution resolution = customResolutions[index];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }

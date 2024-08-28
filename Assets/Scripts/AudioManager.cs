@@ -14,7 +14,7 @@ public class AudioManager : MonoBehaviour
 
     void Awake()
     {
-        
+        // un constructeur
         if (Instance == null)
         {
             Instance = this;
@@ -28,6 +28,7 @@ public class AudioManager : MonoBehaviour
 
     public void JouerMusiqueClassique()
     {
+        // une instance de classe
         musiqueSource.clip = musiqueClassique;
         musiqueSource.Play();
         Debug.Log("La musique est utilise");
@@ -35,6 +36,7 @@ public class AudioManager : MonoBehaviour
 
     public void JouerVictoire()
     {
+        // une instance de classe
         effetSource.clip = victoire;
         effetSource.Play();
         Debug.Log("La musique de Victoire est utilise");
@@ -42,6 +44,7 @@ public class AudioManager : MonoBehaviour
 
     public void JouerDefaite()
     {
+        // une instance de classe
         effetSource.clip = defaite;
         effetSource.Play();
         Debug.Log("La musique de Defaite est utilise");
@@ -49,11 +52,13 @@ public class AudioManager : MonoBehaviour
 
     public void ChangerVolumeMusique(float volume)
     {
+        // une instance de classe
         audioMixer.SetFloat("MusiqueVolume", volume);
     }
 
     public void ChangerVolumeEffets(float volume)
     {
+        // une instance de classe
         audioMixer.SetFloat("EffetsVolume", volume);
     }
 }

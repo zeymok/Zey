@@ -12,9 +12,11 @@ public class OiseauVolantUI : MonoBehaviour
 
     void Start()
     {
+        // un constructeur
         rectTransform = GetComponent<RectTransform>();
 
-        // go la position de départ de l'oiseau
+        /* une instance de classe
+         go la position de départ de l'oiseau*/
         rectTransform.anchoredPosition = pointGauche;
         // go au destination au point droit
         destination = pointDroit;
@@ -22,7 +24,8 @@ public class OiseauVolantUI : MonoBehaviour
 
     void Update()
     {
-        // Déplacer l'oiseau vers la destination
+        /* une instance de classe
+        Déplacer l'oiseau vers la destination*/
         rectTransform.anchoredPosition = Vector2.MoveTowards(rectTransform.anchoredPosition, destination, vitesse * Time.deltaTime);
 
         // Vérifier si l'oiseau est arrivé à la destination
